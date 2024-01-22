@@ -12,12 +12,12 @@
     "resources": ["newtabicon.png"]
   }],
   "icons": {
-    "148": "icon148.png"
+    "148": "newtabicon.png"
   },
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_icon": "icon148.png"
+    "default_icon": "newtabicon.png"
   }
 }
