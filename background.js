@@ -16,7 +16,7 @@ function handleClick(tab) {
           selector: 'div.proNameHolder > div > h1'
         },
         trendyol: {
-          selector: '#product-detail-app > div > div > div > div > div > div > div > div > div > h1 > span'
+          selector: '#product-detail-app > div > div.flex-container > div > div:nth-child(2) > div:nth-child(2) > div > div.product-detail-wrapper > div.pr-in-w > div > div > div:nth-child(1)'
         },
         turkcell: {
           selector: '#product-detail > div > div > div > div > div > h1'
