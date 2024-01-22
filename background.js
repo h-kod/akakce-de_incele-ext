@@ -1,7 +1,6 @@
 
 chrome.action.onClicked.addListener(handleClick);
 
-
 function handleClick(tab) {
   chrome.scripting.executeScript({
     target: { tabId: tab.id },
@@ -61,7 +60,7 @@ function handleClick(tab) {
       } else {
         
         if(!window.location.host.includes("akakce")){
-          // window.open("https://www.akakce.com", '_blank');
+          window.open("https://www.akakce.com", '_blank');
         }
         console.log("URL, desteklenen bir markayı içermiyor.");
       }
