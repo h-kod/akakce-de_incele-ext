@@ -54,12 +54,7 @@ function handleClick(tab) {
           var productTitle = productElement.innerText;
           var searchUrl = 'https://www.akakce.com/arama/?q=' + encodeURIComponent(productTitle);
           console.log(productTitle);
-          // window.open(searchUrl, '_blank');
-          var imgurl = chrome.runtime.getURL('newtabicon.png');
-          console.log(imgurl);
-
-          productElement.innerHTML += `<img onclick="window.open('${searchUrl}')" src='${imgurl}' width="30"/>`;
-          
+          window.open(searchUrl, '_blank');
         } else {
           console.log("Ürün adı öğesi bulunamadı.");
         }
