@@ -10,7 +10,7 @@ function handleClick(tab) {
           selector: '#productTitle'
         },
         hepsiburada: {
-          selector: '#product-name'
+          selector: 'h1[data-test-id=title]'
         },
         n11: {
           selector: 'div.proNameHolder > div > h1'
@@ -31,7 +31,7 @@ function handleClick(tab) {
           selector: '#pdp-main > div > div > h1'
         },
         mediamarkt: {
-          selector: '#product-details > div > h1'
+          selector: 'h1'
         },
         gurgencler: {
           selector: '#maincontent > div > div > div > div > div > h1 > span'
